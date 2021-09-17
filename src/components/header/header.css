@@ -14,7 +14,9 @@
 }
 
 .menu-icon{
-    font-size: 45px;;
+    font-size: 45px;
+    height: 33px;
+    width: 33px;
 }
 
 .mobile-menu{
