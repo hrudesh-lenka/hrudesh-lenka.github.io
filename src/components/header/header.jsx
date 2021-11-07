@@ -6,8 +6,10 @@ import './header.css'
 function Header() {
     const [isOpen, setIsOpen] = useState(false)
     return (
-        <div className="header">
-            <div className="logo">Hrudesh Lenka</div>
+        <div className="header" id="header">
+            <div className="logo">
+                    Hrudesh Lenka
+            </div>
             <div className="menu">
                 <div className="web-menu">
                     <Web />
