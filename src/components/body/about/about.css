@@ -4,12 +4,15 @@
 
 .about-top{
     display: flex;
-    flex-direction: column-reverse;
+    /*flex-direction: column-reverse;*/
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
 .about-info{
+    /*padding: 40px 40px 40px 40px;*/
+    padding: 1.2rem 1.2rem 1.2rem 1.2rem;
     font-size: 18px;
     text-align: justify;
 }

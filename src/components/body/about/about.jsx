@@ -12,11 +12,9 @@ function About() {
                 </div>
                 <div className="about-photo">
                     <img src={bodyImage} alt="about-pic" className="picture"/>
-                    <SocialContact />
                 </div>
-                
             </div>
-            
+            <SocialContact />
         </div>
     )
 }
