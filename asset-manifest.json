@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.b38abbc7.chunk.css",
-    "main.js": "/static/js/main.1cffa5cd.chunk.js",
-    "main.js.map": "/static/js/main.1cffa5cd.chunk.js.map",
+    "main.css": "/static/css/main.6f207e47.chunk.css",
+    "main.js": "/static/js/main.be423a7f.chunk.js",
+    "main.js.map": "/static/js/main.be423a7f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b1d506e6.js",
     "runtime-main.js.map": "/static/js/runtime-main.b1d506e6.js.map",
     "static/js/2.7f7613ae.chunk.js": "/static/js/2.7f7613ae.chunk.js",
@@ -10,9 +10,9 @@
     "static/js/3.2e74ea7d.chunk.js": "/static/js/3.2e74ea7d.chunk.js",
     "static/js/3.2e74ea7d.chunk.js.map": "/static/js/3.2e74ea7d.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.b38abbc7.chunk.css.map": "/static/css/main.b38abbc7.chunk.css.map",
+    "static/css/main.6f207e47.chunk.css.map": "/static/css/main.6f207e47.chunk.css.map",
     "static/js/2.7f7613ae.chunk.js.LICENSE.txt": "/static/js/2.7f7613ae.chunk.js.LICENSE.txt",
-    "static/media/Hrudesh Lenka - CV.c6a25b06.pdf": "/static/media/Hrudesh Lenka - CV.c6a25b06.pdf",
+    "static/media/Hrudesh Lenka - CV.42d9f0d6.pdf": "/static/media/Hrudesh Lenka - CV.42d9f0d6.pdf",
     "static/media/about-picture.7d0cf97f.png": "/static/media/about-picture.7d0cf97f.png",
     "static/media/exercise-tracker.png": "/static/media/exercise-tracker.bf045d60.png",
     "static/media/fi-rr-briefcase.8a35dc53.svg": "/static/media/fi-rr-briefcase.8a35dc53.svg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.b1d506e6.js",
     "static/js/2.7f7613ae.chunk.js",
-    "static/css/main.b38abbc7.chunk.css",
-    "static/js/main.1cffa5cd.chunk.js"
+    "static/css/main.6f207e47.chunk.css",
+    "static/js/main.be423a7f.chunk.js"
   ]
 }
