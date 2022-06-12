@@ -6,8 +6,9 @@
 
 .work-list{
     display: flex;
+    /* flex-direction: column; */
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin: 24px 0px;
+    margin: 20px 14px;
 }

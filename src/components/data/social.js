@@ -10,7 +10,7 @@ export const SocialData=[
         icon: require("../../assests/gh.png").default
     },
     {
-        platform: "instagram",
+        platform: "email",
         link: "mailto:hrudesh.lenka@gmail.com?Subject=Hello!",
         icon: require("../../assests/email.png").default
     }

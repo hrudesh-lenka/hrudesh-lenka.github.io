@@ -3,7 +3,7 @@ import './footer.css'
 function Footer() {
     return (
         <div className="footer">   
-            ©2021 Hrudesh Lenka
+            ©2022 Hrudesh Lenka
         </div>
     )
 }

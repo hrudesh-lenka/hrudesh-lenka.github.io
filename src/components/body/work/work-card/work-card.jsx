@@ -4,9 +4,10 @@ import './work-card.css'
 function WorkCard({item}) {
     return (
         <div className="work-card">
-            <img src={item.companyLogo} alt="dxc" className="work-logo"/>
+            <img src={item.companyLogo} alt={item.company} className="work-logo"/>
             <div className="work-info">
                 <label className="company-name">{item.company}</label>
+                <label className="designation">{item.designation}</label>
                 <div className="work-dates">
                     <label htmlFor="company-date" >
                         {item.dateOfJoining}
