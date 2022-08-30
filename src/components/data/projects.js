@@ -4,7 +4,7 @@ export const ProjectsData = [
         title: "Random Quote Generator ",
         about: "Website built with ReactJs that fetches quotes from external api.",
         tags: ["Reactjs"],
-        demo: "https://www.hrudesh.me/random-quote-machine",
+        demo: "https://www.hrudesh.in/random-quote-machine",
         github: "https://www.github.com/hrudesh-lenka/random-quote-machine",
         image: require("../../assests/random-quote.png").default
     },
