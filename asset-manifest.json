@@ -1,31 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.6f207e47.chunk.css",
-    "main.js": "/static/js/main.245ecfb2.chunk.js",
-    "main.js.map": "/static/js/main.245ecfb2.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b1d506e6.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b1d506e6.js.map",
-    "static/js/2.7f7613ae.chunk.js": "/static/js/2.7f7613ae.chunk.js",
-    "static/js/2.7f7613ae.chunk.js.map": "/static/js/2.7f7613ae.chunk.js.map",
-    "static/js/3.2e74ea7d.chunk.js": "/static/js/3.2e74ea7d.chunk.js",
-    "static/js/3.2e74ea7d.chunk.js.map": "/static/js/3.2e74ea7d.chunk.js.map",
+    "main.css": "/static/css/main.31d18d74.css",
+    "main.js": "/static/js/main.8aa9002f.js",
+    "static/js/488.fdfbe429.chunk.js": "/static/js/488.fdfbe429.chunk.js",
+    "static/media/exercise-tracker.png": "/static/media/exercise-tracker.bf045d60e4dd688ebd58.png",
+    "static/media/random-quote.png": "/static/media/random-quote.63d93fdf3b778d8f0fea.png",
+    "static/media/about-picture.png": "/static/media/about-picture.7d0cf97f269c2860a834.png",
+    "static/media/Hrudesh Lenka - CV.pdf": "/static/media/Hrudesh Lenka - CV.42d9f0d6b8ea956b53fe.pdf",
     "index.html": "/index.html",
-    "static/css/main.6f207e47.chunk.css.map": "/static/css/main.6f207e47.chunk.css.map",
-    "static/js/2.7f7613ae.chunk.js.LICENSE.txt": "/static/js/2.7f7613ae.chunk.js.LICENSE.txt",
-    "static/media/Hrudesh Lenka - CV.42d9f0d6.pdf": "/static/media/Hrudesh Lenka - CV.42d9f0d6.pdf",
-    "static/media/about-picture.7d0cf97f.png": "/static/media/about-picture.7d0cf97f.png",
-    "static/media/exercise-tracker.png": "/static/media/exercise-tracker.bf045d60.png",
-    "static/media/fi-rr-briefcase.8a35dc53.svg": "/static/media/fi-rr-briefcase.8a35dc53.svg",
-    "static/media/fi-rr-cross-circle.fac56ed3.svg": "/static/media/fi-rr-cross-circle.fac56ed3.svg",
-    "static/media/fi-rr-laptop.a49b2ff0.svg": "/static/media/fi-rr-laptop.a49b2ff0.svg",
-    "static/media/fi-rr-menu-burger.230ce7eb.svg": "/static/media/fi-rr-menu-burger.230ce7eb.svg",
-    "static/media/fi-rr-user.38cfdb1b.svg": "/static/media/fi-rr-user.38cfdb1b.svg",
-    "static/media/random-quote.png": "/static/media/random-quote.63d93fdf.png"
+    "static/media/fi-rr-laptop.svg": "/static/media/fi-rr-laptop.a49b2ff0d9a5ce73577568a7eed8a9ef.svg",
+    "static/media/fi-rr-briefcase.svg": "/static/media/fi-rr-briefcase.8a35dc5306dfcf2f2d720785b4ecfbc2.svg",
+    "static/media/fi-rr-cross-circle.svg": "/static/media/fi-rr-cross-circle.fac56ed3ffe4f6530388418e3b878117.svg",
+    "static/media/fi-rr-user.svg": "/static/media/fi-rr-user.38cfdb1bd4866f7ba811aff361223f76.svg",
+    "static/media/fi-rr-menu-burger.svg": "/static/media/fi-rr-menu-burger.230ce7ebac47221f71ff65a4369a1d1e.svg",
+    "main.31d18d74.css.map": "/static/css/main.31d18d74.css.map",
+    "main.8aa9002f.js.map": "/static/js/main.8aa9002f.js.map",
+    "488.fdfbe429.chunk.js.map": "/static/js/488.fdfbe429.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.b1d506e6.js",
-    "static/js/2.7f7613ae.chunk.js",
-    "static/css/main.6f207e47.chunk.css",
-    "static/js/main.245ecfb2.chunk.js"
+    "static/css/main.31d18d74.css",
+    "static/js/main.8aa9002f.js"
   ]
 }
