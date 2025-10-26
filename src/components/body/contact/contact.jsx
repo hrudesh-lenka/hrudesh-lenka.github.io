@@ -3,7 +3,6 @@ import Separator from '../../common/separator/separator'
 import SocialContact from '../../common/social-contact/social-contact'
 import Pdf from '../../../assests/Hrudesh Lenka - CV.pdf'
 import './contact.css'
-import TwitterFeed from "../../common/social-contact/twitter-feed";
 function Contact() {
     return (
         <div className="contact">
@@ -20,9 +19,6 @@ function Contact() {
                     <a download href={Pdf}>
                         <i class="fi-rr-cloud-download download-icon" /> Download Resume
                     </a>
-                </div>
-                <div className="contact-container">
-                    <TwitterFeed />
                 </div>
             </div>
         </div>
