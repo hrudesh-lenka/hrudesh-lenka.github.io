@@ -1,48 +1,54 @@
-.header{
+.header {
     display: flex;
     justify-content: space-between;
-    flex: 1;
-    padding: 12px;
-    position: relative;
     align-items: center;
+    flex: 1;
+    padding: var(--space-3) var(--space-2);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: var(--color-header-bg);
+    backdrop-filter: blur(10px);
 }
 
-
-.menu{
+.menu {
     display: flex;
     flex: 1;
+    align-items: center;
     justify-content: flex-end;
+    gap: var(--space-3);
 }
 
-.menu-icon{
-    font-size: 45px;
-    height: 33px;
-    width: 33px;
+.menu-icon {
+    height: 26px;
+    width: 26px;
+    cursor: pointer;
 }
 
-.mobile-menu{
+.mobile-menu {
     display: none;
 }
 
-.web-menu{
+.web-menu {
     display: flex;
 }
 
-.logo{
-    font-family: 'Dancing Script', cursive;
+.logo {
+    font-family: var(--font-display);
     display: flex;
-    font-size: 36px;
-    font-weight: 800;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--color-text);
 }
 
-@media only screen and (max-width: 720px){
-    .mobile-menu{
+@media only screen and (max-width: 720px) {
+    .mobile-menu {
         display: flex;
     }
-    .web-menu{
+    .web-menu {
         display: none;
     }
-    .logo{
-        font-size: 36px;
+    .logo {
+        font-size: 20px;
     }
 }

@@ -5,6 +5,7 @@ html{
     display: flex;
     flex-direction: column;
     width: 70%;
+    max-width: var(--max-width);
     margin: auto;
 }
 

@@ -1,44 +1,59 @@
-.mobile{
-    background-color: rgb(220, 220, 223);
+.mobile {
+    background-color: var(--color-bg-elevated);
+    border-left: 1px solid var(--color-border);
     height: 100vh;
-    width: 60vw;
-    position:absolute;  
+    width: 70vw;
+    position: fixed;
     right: 0px;
-    top: -6px;
-    padding: 18px 12px;
+    top: 0px;
+    padding: var(--space-4) var(--space-3);
     display: flex;
     flex-direction: column;
+    z-index: 20;
 }
 
-.cross-icon{
-    height: 25px;
-    width: 25px;
+.cross-icon {
+    height: 22px;
+    width: 22px;
+    filter: var(--icon-filter);
+    cursor: pointer;
 }
 
-.close-icon{
+.close-icon {
     display: flex;
     justify-content: flex-end;
-    font-size: 24px;
 }
 
-.mobile-options{
+.mobile-options {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding-top: 24px;
-    /* justify-content: center;
-    align-items: center; */
+    padding-top: var(--space-5);
+    gap: var(--space-2);
     height: 100%;
 }
 
-.mobile-option{
-    font-size: 24px;
-    margin: 12px 0px;
+.mobile-option {
+    font-size: 18px;
+    font-weight: 500;
     display: flex;
 }
 
-.mobile-option a{
+.mobile-option a {
     display: flex;
-    text-decoration: none;
-    color: black;
+    align-items: center;
+    gap: var(--space-2);
+    color: var(--color-text);
+    padding: var(--space-2);
+    border-radius: var(--radius-sm);
+    width: 100%;
+}
+
+.mobile-option a:active,
+.mobile-option a:hover {
+    background-color: var(--color-bg-card);
+}
+
+.mobile-option .option-icon {
+    filter: var(--icon-filter);
 }

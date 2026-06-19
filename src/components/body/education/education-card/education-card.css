@@ -1,0 +1,27 @@
+.education-card {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    text-align: left;
+    padding: var(--space-4);
+    border-radius: var(--radius-lg);
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+}
+
+.school-name {
+    font-family: var(--font-display);
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--color-text);
+}
+
+.degree {
+    font-size: 15px;
+    color: var(--color-accent-strong);
+}
+
+.education-dates {
+    font-size: 13px;
+    color: var(--color-text-muted);
+}

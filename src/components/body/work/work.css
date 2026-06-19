@@ -1,14 +1,11 @@
-.work{
+.work {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-.work-list{
+.work-list {
     display: flex;
-    /* flex-direction: column; */
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin: 20px 14px;
+    flex-direction: column;
+    margin: var(--space-4) 0;
 }

@@ -17,7 +17,7 @@ function Contact() {
                 </div>
                 <div className="download">
                     <a download href={Pdf}>
-                        <i class="fi-rr-cloud-download download-icon" /> Download Resume
+                        <i className="fi-rr-cloud-download download-icon" /> Download Resume
                     </a>
                 </div>
             </div>

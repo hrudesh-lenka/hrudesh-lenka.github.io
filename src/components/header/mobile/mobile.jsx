@@ -10,32 +10,32 @@ function Mobile({isOpen, setIsOpen}) {
     return (
         <div className="mobile">
             <div className="close-icon" onClick={()=>setIsOpen(!isOpen)}>
-                {/* <i class="fi-rr-cross-circle"></i> */}
                 <img src={cross} alt="cross" className="cross-icon"/>
             </div>
             <div className="mobile-options">
                 <div className="mobile-option">
-                    <a href="#projects">
+                    <a href="#projects" onClick={()=>setIsOpen(false)}>
                     <img src={projectImage} alt="project" className="option-icon"/>Projects
-                        {/* <i class="fi-rr-edit-alt option-icon"></i>Projects */}
                     </a>
                 </div>
                 <div className="mobile-option">
-                    <a href="#skills">
+                    <a href="#skills" onClick={()=>setIsOpen(false)}>
                     <img src={skillsImage} alt="skills" className="option-icon"/>Skills
-                {/* <i class="fi-rr-laptop option-icon"></i>Skills */}
                     </a>
                 </div>
                 <div className="mobile-option">
-                    <a href="#work">
+                    <a href="#education" onClick={()=>setIsOpen(false)}>
+                    <i className="fi-rr-graduation-cap option-icon-font"></i>Education
+                    </a>
+                </div>
+                <div className="mobile-option">
+                    <a href="#work" onClick={()=>setIsOpen(false)}>
                     <img src={workImage} alt="work" className="option-icon"/>Work
-                {/* <i class="fi-rr-briefcase option-icon"></i>Work */}
                     </a>
                 </div>
                 <div className="mobile-option">
-                <a href="#contact">
+                <a href="#contact" onClick={()=>setIsOpen(false)}>
                 <img src={contactImage} alt="contact" className="option-icon"/>Contact
-                {/* <i class="fi-rr-user option-icon"></i>Contact */}
                 </a>
             </div>
             </div>

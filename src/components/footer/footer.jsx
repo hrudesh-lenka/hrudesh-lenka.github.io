@@ -1,9 +1,10 @@
 import React from 'react'
 import './footer.css'
+
 function Footer() {
     return (
-        <div className="footer">   
-            ©2022 Hrudesh Lenka
+        <div className="footer">
+            © {new Date().getFullYear()} Hrudesh Lenka
         </div>
     )
 }
